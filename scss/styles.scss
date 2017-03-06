@@ -1,7 +1,22 @@
+@import    'normalize';
+@import    'lightgallery.min';
+@import    'lg-transitions.min';
+
+
 /********************
 YOUR STYLES
 *******************/
+body{
+    background: green;
+}
+figure{
+    background: lavender;
+    width:20%
+}
 
+figure figcation{
+    font-style: italic;
+}
 
 
 
