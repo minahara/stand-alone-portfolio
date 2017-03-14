@@ -2,11 +2,16 @@
 YOUR STYLES
 *******************/
 
-
+body{
+    background: #9f9f9f;
+}
 /* Header */
 header {
-  display: flex;
-  justify-content: center;
+    font-family: 'Josefin Slab', serif;
+    padding: 10px;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -55,9 +60,7 @@ MEDIA QUERIES
 @media screen and (min-width: 20em) { 
 
   /* Diagnostic Styling. */
-  body {
-       background: red;
-  }
+  
   figure{ width:100%;}
 }
 
@@ -67,9 +70,7 @@ MEDIA QUERIES
 @media screen and (min-width: 48em)  {
 
   /* Diagnostic Styling. */
-  body {
-       background: green;
-  }
+  
 figure{ width:50%;}
 }
 
@@ -78,9 +79,7 @@ figure{ width:50%;}
 @media screen and (min-width: 80em) { 
   
   /* Diagnostic Styling. */
-  body {
-       background: blue;
-  }
+  
 
     figure{ width:30%;}
 }
