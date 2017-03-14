@@ -2,36 +2,128 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width">
 
-  <title>Stand Alone Portfolio</title>
+  <title>Stand Alone Gallery</title>
  
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+ <link rel="icon" href="favicon.ico" type="image/x-icon">
+ 
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">  
+  <link rel="stylesheet" href="css/lg-transitions.min.css">
+  <link rel="stylesheet" href="css/lightgallery.min.css">    
   
-
-    
-  <!-- YOUR STYLES GO HERE -->
-  <link rel="stylesheet" href="scss/styles.css">	
+  <link rel="stylesheet" href="css/styles.css">	
 	
 </head>
 <body>
-	
-  <!-- YOUR AWESOME WEBSITE -->
-	<figure>
-        <a href="img/500.jpg"><img src="http://placehold.it/100x100" alt=""></a>
-	    
-	    <figcation>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, beatae numquam quae libero ut necessitatibus explicabo molestias error ea blanditiis enim incidunt laudantium natus accusamus quod est, fugiat perspiciatis magnam?</figcation>
-	</figure>
+
+    <header>      
+        <img src="http://placehold.it/3000x300">
+    </header>
+    
+    
 
 	
+	<main class="gallery">
+<!--Stuff 1-->
+        <figure>
+          <a data-sub-html="#caption1"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <a data-sub-html="#caption2"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <figcaption>Lorem ipsum dolor sit amet, consectetur adipisng elit. Quam, id incidunt officiis magnam.</figcaption>
+        </figure>
+
+<!--  stuff 2-->
+  <figure>
+          <a data-sub-html="#caption1"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <a data-sub-html="#caption2"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <a data-sub-html="#caption2"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <a data-sub-html="#caption2"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <figcaption>Lorem ipsum dolor sit amet, consectetur adipisng elit. Quam, id incidunt officiis magnam.</figcaption>
+        </figure>
+        
+        <!--  stuff 3-->
+  <figure>
+          <a data-sub-html="#caption1"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <a data-sub-html="#caption2"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <a data-sub-html="#caption2"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <a data-sub-html="#caption2"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <figcaption>Lorem ipsum dolor sit amet, consectetur adipisng elit. Quam, id incidunt officiis magnam.</figcaption>
+        </figure>
+        
+        <!--  stuff 4-->
+  <figure>
+          <a data-sub-html="#caption1"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <a data-sub-html="#caption2"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <a data-sub-html="#caption2"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <a data-sub-html="#caption2"href="https://unsplash.it/1024/768/?random">
+            <img src="http://placehold.it/300x200" alt="">
+          </a>
+          
+          <figcaption>Lorem ipsum dolor sit amet, consectetur adipisng elit. Quam, id incidunt officiis magnam.</figcaption>
+        </figure>
+
+  </main>
+
+	<footer>
+	    <p>Copyright P. Colin Manikoth YEAR</p>
+	</footer>
+	
+<!--	Captions   -->
+<div class="caption" id="caption1">
+    <h2>You're so Close</h2>
+</div>
+
+<div class="caption" id="caption2">
+    <h2>Graduation is june17th</h2>
+</div>
 
 
-  <!-- jQuery -->
+<!-- Scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <!-- jQuery Plugin -->
-  <script src="js/plugin.js"></script>
-  <!-- YOUR SCRIPTS GO HERE -->
-  <script src="js/scripts.js"></script>
+  	
+  	<script src="js/lightgallery.min.js"></script>
+    <script src="js/lg-thumbnail.min.js"></script>
+  
+  	<script src="js/scripts.js"></script>
 
 </body>
 </html>
