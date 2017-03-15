@@ -17,17 +17,22 @@ header {
 
 /* Gallery Styling */
 /*you can vary the size of the thumb nails*/
+
+/*thumb nails*/
 figure img {
-    width:300px;
+    width:100px;
+    box-shadow: 0 0 30px #111
 }
 
 
 .gallery{
     display: flex;
-    flex-wrap: wrap;
+    
+    flex-flow: wrap;
 }
 
 figure{
+    
     background: #333;
     width:30%;
     padding: 20px;
@@ -44,7 +49,7 @@ figure{
 }
 
 .lg-image {
-    box-shadow: 0 0 30px #333;
+    box-shadow: 0 0 70px #333;
 }
 
 /*Caption*/
@@ -72,7 +77,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   
-figure{ width:50%;}
+figure{ width:40%;}
 }
 
 
