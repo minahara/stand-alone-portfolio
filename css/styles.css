@@ -46,6 +46,7 @@ figure{
 
 
 figcaption{
+    color: #9f9f9f;
     font-family: 'Josefin Slab', serif;
     display: flex;
     flex-wrap: wrap;
